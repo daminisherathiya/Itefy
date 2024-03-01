@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply tw-font-quicksand;
+  }
+}
+@layer components {
+  .tw-container {
+    @apply tw-px-7;
+  }
+}
+@layer utilities {
+  .header.header-without-menu .main-menu {
+    /* Hide the menu */
+    @apply tw-hidden;
+  }
+  .header.header-without-menu > div {
+    /* In < md screen, show the logo in center. */
+    @apply tw-flex tw-justify-center md:tw-justify-start;
+  }
+}

@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -444,6 +444,10 @@ video {
   display: none;
 }
 
+body {
+  font-family: Quicksand, Open Sans, Verdana, Helvetica, Arial, Sans-serif;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -544,6 +548,266 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.tw-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .tw-container {
+    max-width: 1200px;
+  }
+}
+
+.tw-container {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.tw-fixed {
+  position: fixed;
+}
+
+.tw-left-0 {
+  left: 0px;
+}
+
+.tw-left-\[100\%\] {
+  left: 100%;
+}
+
+.tw-top-0 {
+  top: 0px;
+}
+
+.tw-z-50 {
+  z-index: 50;
+}
+
+.tw-float-end {
+  float: inline-end;
+}
+
+.tw-ms-auto {
+  margin-inline-start: auto;
+}
+
+.tw-inline-block {
+  display: inline-block;
+}
+
+.tw-flex {
+  display: flex;
+}
+
+.tw-h-\[1000px\] {
+  height: 1000px;
+}
+
+.tw-h-\[700px\] {
+  height: 700px;
+}
+
+.tw-h-full {
+  height: 100%;
+}
+
+.tw-w-\[3\.625rem\] {
+  width: 3.625rem;
+}
+
+.tw-w-full {
+  width: 100%;
+}
+
+.tw-cursor-pointer {
+  cursor: pointer;
+}
+
+.tw-items-center {
+  align-items: center;
+}
+
+.tw-overflow-auto {
+  overflow: auto;
+}
+
+.tw-rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.tw-border-b {
+  border-bottom-width: 1px;
+}
+
+.tw-border-white-70 {
+  border-color: #ffffff4d;
+}
+
+.tw-bg-charcoal-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(57 65 76 / var(--tw-bg-opacity));
+}
+
+.tw-bg-slate-gray {
+  background-color: #363e49fa;
+}
+
+.tw-bg-\[url\(\.\.\/assets\/images\/banner\.jpeg\)\] {
+  background-image: url(../assets/images/banner.jpeg);
+}
+
+.tw-bg-cover {
+  background-size: cover;
+}
+
+.tw-bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.tw-p-4 {
+  padding: 1rem;
+}
+
+.tw-px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.tw-py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .tw-text-end {
   text-align: end;
+}
+
+.tw-align-middle {
+  vertical-align: middle;
+}
+
+.tw-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.tw-text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.tw-font-light {
+  font-weight: 300;
+}
+
+.tw-text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.tw-transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.tw-duration-200 {
+  transition-duration: 200ms;
+}
+
+.tw-duration-300 {
+  transition-duration: 300ms;
+}
+
+.tw-ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tw-ease-linear {
+  transition-timing-function: linear;
+}
+
+.header.header-without-menu .main-menu {
+  /* Hide the menu */
+  display: none;
+}
+
+.header.header-without-menu > div {
+  /* In < md screen, show the logo in center. */
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .header.header-without-menu > div {
+    justify-content: flex-start;
+  }
+}
+
+.hover\:tw-opacity-70:hover {
+  opacity: 0.7;
+}
+
+.tw-group:hover .group-hover\:tw-opacity-70 {
+  opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+  .md\:tw-static {
+    position: static;
+  }
+
+  .md\:tw-flex {
+    display: flex;
+  }
+
+  .md\:tw-hidden {
+    display: none;
+  }
+
+  .md\:tw-items-center {
+    align-items: center;
+  }
+
+  .md\:tw-border-b-0 {
+    border-bottom-width: 0px;
+  }
+
+  .md\:tw-bg-deep-pink {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 20 147 / var(--tw-bg-opacity));
+  }
+
+  .md\:tw-bg-transparent {
+    background-color: transparent;
+  }
+
+  .md\:tw-px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .md\:tw-py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .md\:tw-py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .md\:tw-pe-0 {
+    padding-inline-end: 0px;
+  }
+
+  .md\:tw-ps-3 {
+    padding-inline-start: 0.75rem;
+  }
+
+  .md\:tw-font-medium {
+    font-weight: 500;
+  }
 }
